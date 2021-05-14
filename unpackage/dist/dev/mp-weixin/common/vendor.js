@@ -8898,6 +8898,9 @@ function myRequestGet(url, data) {
     uni.request({
       url: baseUrl + url,
       method: "GET",
+      header: {
+        'Content-Type': 'application/x-www-form-urlencoded' },
+
       data: data,
       success: function success(res) {
         resolve(res.data);
