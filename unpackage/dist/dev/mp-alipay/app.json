@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "极客商城",
+    "titleBarColor": "#1989fa",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}
