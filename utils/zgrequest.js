@@ -1,15 +1,12 @@
-const baseUrl = "http//1.15.157.130";
+const baseUrl = "https//1.15.157.130";
 
-export const myRequest = (options)=>{
-	return new Promise((resolve,reject)=>{
+export function myRequestGet(url, data) {
+	return new Promise((resolve, reject) => {
 		uni.request({
 			url: baseUrl + url,
 			method: "GET",
-			header: {
-				'Content-Type': 'application/x-www-form-urlencoded'
-			},
 			data: data,
-			success:function(res) {
+			success: function(res) {
 				resolve(res.data)
 			},
 			fail: function(err) {
@@ -18,19 +15,21 @@ export const myRequest = (options)=>{
 		})
 	})
 }
-wxport function myReguestPost(url,data){
-	return new Promise((resolve,reject) =>{
+
+
+export function myRequestPost(url, data) {
+	return new Promise((resolve, reject) => {
 		uni.request({
-			url:;baseUrl + url,
+			url: baseUrl + url,
 			header: {
 				'Content-Type': 'application/x-www-form-urlencoded'
 			},
-			metjhod:"[POST]",
-			data:data,
-			success:function(ree){
+			method: "POST",
+			data: data,
+			success: function(res) {
 				resolve(res.data)
 			},
-			fail:function(err){
+			fail: function(err) {
 				reject(err)
 			}
 		})
