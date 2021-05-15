@@ -12,10 +12,13 @@
 				
 			}
 		},
+		created(){
+			this.getSwipers()
+		},
 		methods: {
            async getSwipers(){
 				let result = await myRequestGet("/api/getlunbo");
-				
+				console.log(result,"44444444")
 			}
 		}
 		

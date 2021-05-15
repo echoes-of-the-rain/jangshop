@@ -149,10 +149,13 @@ var _zgrequest = __webpack_require__(/*! @/utils/zgrequest.js */ 20);function _i
 
 
   },
+  created: function created() {
+    this.getSwipers();
+  },
   methods: {
     getSwipers: function getSwipers() {return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var result;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:_context.next = 2;return (
-                  (0, _zgrequest.myRequestGet)("/api/getlunbo"));case 2:result = _context.sent;case 3:case "end":return _context.stop();}}}, _callee);}))();
-
+                  (0, _zgrequest.myRequestGet)("/api/getlunbo"));case 2:result = _context.sent;
+                console.log(result, "44444444");case 4:case "end":return _context.stop();}}}, _callee);}))();
     } } };exports.default = _default;
 
 /***/ }),

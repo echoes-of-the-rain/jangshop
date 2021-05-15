@@ -8891,7 +8891,7 @@ if (hadRuntime) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.myRequestGet = myRequestGet;exports.myRequestPost = myRequestPost;var baseUrl = "https//1.15.157.130";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.myRequestGet = myRequestGet;exports.myRequestPost = myRequestPost;var baseUrl = "http://1.15.157.130";
 
 function myRequestGet(url, data) {
   return new Promise(function (resolve, reject) {

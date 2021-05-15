@@ -1,4 +1,4 @@
-const baseUrl = "https//1.15.157.130";
+const baseUrl = "http://1.15.157.130";
 
 export function myRequestGet(url, data) {
 	return new Promise((resolve, reject) => {
