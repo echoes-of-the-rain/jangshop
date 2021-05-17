@@ -19,7 +19,62 @@
 		"style": {
 			"navigationBarTitleText": "购物车"
 		}
-	}],
+	}    ,{
+            "path" : "pages/goods/goods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品列表",
+                "enablePullDownRefresh": false,
+				"onReachBottomDistance":50
+            }
+            
+        }
+        ,{
+            "path" : "pages/pics/pics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图片列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "联系我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/vedios/vedios",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "视频模块",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        // ,{
+        //     "path" : "compoents/GoodList/GoodList",
+        //     "style" :                                                                                    
+        //     {
+        //         "navigationBarTitleText": "",
+        //         "enablePullDownRefresh": false
+        //     }
+            
+        // }
+        ,{
+            "path" : "pages/goodsdetail/goodsdetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "极客商城",
